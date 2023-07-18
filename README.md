@@ -28,7 +28,7 @@ Esse projeto apresenta o back-end de uma rede social para o bootcamp de formaç�
 ---
 ##  🧭Status do Projeto
 
- - ⏳ Finalizado
+ - ⏳ Feito
 
 ---
 
@@ -51,13 +51,16 @@ Este é um projeto de Back-end cujo principal objetivo é desenvolver as princip
 
 ## 💡Concepção do Projeto
 
-Para esse projeto são modelados três entidades : **Usuário (USER), Amigo (FRIEND)** e **Postagem (TASK)**.  Cada um com as seguintes caracteristicas :
+Para esse projeto são modelados três entidades : **Usuário (USER), Amigo (FRIEND)** e **Postagem (TASK)**.  Cada uma com as seguintes caracteristicas:
 
 → User (labook_users) -  id, name, email, password;
 
 → Friend (labook_friends) - id, id_user, id_friend ;
 
 → Postagem (labook_tasks) - id, photo, description, type, created_at, author_id.
+
+![image](https://github.com/LaylaJHB/Rede-Social-Labook/assets/99913142/52624218-a5d5-4ed4-907f-14131883b054)
+
 
 
 
@@ -66,8 +69,7 @@ Para esse projeto são modelados três entidades : **Usuário (USER), Amigo (FRI
 
 ## ☑️Próximos passos
 
-- Clean Code - alterar Task para Post
-- Adicionar modelagem do Banco de Dados
+- Clean Code - alterar o nome _Task_ para _Post_
 
 ---
 
@@ -75,8 +77,6 @@ Para esse projeto são modelados três entidades : **Usuário (USER), Amigo (FRI
 
 - **Link da Documentação no Postman:** 
     - https://documenter.getpostman.com/view/22349688/2s93CLtZd3
-
-    ![Print de algumas requisições realizadas no Postman](image.png)
 
 - **Link do Deploy no Render:** 
    
