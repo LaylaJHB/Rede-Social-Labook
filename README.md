@@ -1,16 +1,12 @@
-# Labook
+# Rede Social Labook
 
 ---
 
 ##  🕵Sobre
 
-Desenvolvimento do Backend de uma rede social nomeada Labook
+Esse projeto apresenta o back-end de uma rede social para o bootcamp de formação em Web Full-Stack da Labenu
 
----
 
-##  👩🏾Quem Faz 
-
-- Layla Janaína Hissa Borges
 
 
 ---
@@ -18,7 +14,7 @@ Desenvolvimento do Backend de uma rede social nomeada Labook
 
 <!--ts-->
    * [Sobre](#sobre)
-   * [Quem Faz](#-quem-faz)
+   * [Autor](#👩🏾-autor)
    * [Status](#status)
    * [Objetivo do Projeto](#objetivo-do-projeto)
    * [Requisitos de Funcionalidade](#requisitos-de-funcionalidade)
@@ -32,27 +28,46 @@ Desenvolvimento do Backend de uma rede social nomeada Labook
 ---
 ##  🧭Status do Projeto
 
- - ⏳ Fazendo
+ - ⏳ Finalizado
 
 ---
 
 ##  🎯Objetivo do Projeto
 
-Este é um projeto de Back-end, desenvolvido no bootcamp da Labenu, cujo o principal objetivo é desenvolver o Backend de uma rede social.
+Este é um projeto de Back-end cujo principal objetivo é desenvolver as principais funcionalidades de uma rede social em Typescript.
 
 ## ☑️Requisitos de Funcionalidade
 
-- [x] Pegar todos os usuários cadastrados
-- [x] Criar/Cadastrar novo usuário
-- [x] Criar nova Postagem
-- [x] Buscar uma postagem por id
-- [x] Ver todo o Feed
-- [x] Fazer amizade
-- [x] Desfazer Amizade
+
+- [✅] Cadastrar novo usuário na rede social com senha criptografada
+- [✅] Puxar os dados de todos os usuários cadastrados na rede
+- [✅] Criar nova postagem na rede social
+- [✅] Buscar uma postagem por id
+- [✅] Ver todo o feed da rede social
+- [✅] Fazer amizade
+- [✅] Desfazer amizade
+
+---
+
+## 💡Concepção do Projeto
+
+Para esse projeto são modelados três entidades : **Usuário (USER), Amigo (FRIEND)** e **Postagem (TASK)**.  Cada um com as seguintes caracteristicas :
+
+→ User (labook_users) -  id, name, email, password;
+
+→ Friend (labook_friends) - id, id_user, id_friend ;
+
+→ Postagem (labook_tasks) - id, photo, description, type, created_at, author_id.
+
+
+
+
+---
 
 ## ☑️Próximos passos
 
-Documentar
+- Clean Code - alterar Task para Post
+- Adicionar modelagem do Banco de Dados
 
 ---
 
@@ -60,6 +75,8 @@ Documentar
 
 - **Link da Documentação no Postman:** 
     - https://documenter.getpostman.com/view/22349688/2s93CLtZd3
+
+    ![Print de algumas requisições realizadas no Postman](image.png)
 
 - **Link do Deploy no Render:** 
    
@@ -87,6 +104,12 @@ Para Rodar o projeto, siga as seguintes etapas :
 - Rode o comando `npm run migrations` para criar as tabelas do projeto em seu banco de Dados
 - Rode o comando `npm start` no terminal para iniciar o projeto
 
+
+---
+
+##  👩🏾 Autor 
+
+- Layla Janaína Hissa Borges
 
 ---
 
