@@ -14,11 +14,11 @@ Esse projeto apresenta o back-end de uma rede social para o bootcamp de formaç�
 
 <!--ts-->
    * [Sobre](#sobre)
-   * [Autor](#👩🏾-autor)
-   * [Status](#status)
+   * [Autor](#autor)
+   * [Status](#status-do-projeto)
    * [Objetivo do Projeto](#objetivo-do-projeto)
    * [Requisitos de Funcionalidade](#requisitos-de-funcionalidade)
-   * [Concepção do Projeto](#concepcao-do-projeto)
+   * [Concepção do Projeto](#concepção-do-projeto)
    * [Link para Acessar](#link-para-acessar)
    * [Rodando o Projeto](#rodando-o-projeto)
    * [Sobre a Licença](#sobre-a-licença)
@@ -26,7 +26,7 @@ Esse projeto apresenta o back-end de uma rede social para o bootcamp de formaç�
 
 
 ---
-##  🧭Status do Projeto
+## 🧭Status do Projeto
 
  - ⏳ Feito
 
@@ -36,7 +36,7 @@ Esse projeto apresenta o back-end de uma rede social para o bootcamp de formaç�
 
 Este é um projeto de Back-end cujo principal objetivo é desenvolver as principais funcionalidades de uma rede social em Typescript.
 
-## ☑️Requisitos de Funcionalidade
+## ☑Requisitos de Funcionalidade
 
 
 - [✅] Cadastrar novo usuário na rede social com senha criptografada
@@ -107,7 +107,7 @@ Para Rodar o projeto, siga as seguintes etapas :
 
 ---
 
-##  👩🏾 Autor 
+##  👩Autor 
 
 - Layla Janaína Hissa Borges
 
