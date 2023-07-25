@@ -70,6 +70,7 @@ Para esse projeto são modelados três entidades : **Usuário (USER), Amigo (FRI
 ## ☑️Próximos passos
 
 - Clean Code - alterar o nome _Task_ para _Post_
+- Corrigir arquivo Migrations
 
 ---
 
